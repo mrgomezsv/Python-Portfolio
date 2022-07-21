@@ -1,1 +1,22 @@
-lala
+{% extends 'base.html' %}
+
+{% block title %}
+Bienvenido
+{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <div class="hero-content">
+        <div class="left">
+            <h1>Soy Desarrollador</h1>
+            <h1>Mario Roberto</h1>
+            <p>Construyo aplicaciones en Python dinamicas utilizando bases de datos relacionales.</p>
+            <a href="#contact" class="btn">Contáctame</a>
+        </div>
+        <div class="right">
+             <img src="{{ url_for('static', filename='big-data.png') }}" width="600px" />
+        </div>
+    </div>
+</div>
+{% include 'portfolio/section-furst.html' %}
+{% endblock %}
