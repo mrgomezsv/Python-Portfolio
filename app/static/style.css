@@ -57,7 +57,6 @@ html body nav ul li a {
     display: flex;
     background-color: #fff;
     padding: 20px 50px;
-    /*padding: 20px 50px;*/
     justify-content: center;
 }
 
@@ -134,4 +133,29 @@ a.btn {
 .third {
     width: 360px;
     margin: 20px;
+}
+
+.contact-form input {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+.contact-form textarea {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    height: 100px;
+    padding: 15px 10px;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: calc(100% - 20px);
+}
+
+.full-width {
+    width: 100%;
 }
