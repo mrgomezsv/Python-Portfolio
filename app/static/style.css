@@ -103,6 +103,7 @@ a.btn {
 
 .content {
     width: 1200px;
+    
 }
 
 .row {
@@ -142,6 +143,7 @@ a.btn {
     padding: 5px 10px;
     margin-bottom: 15px;
     border-radius: 5px;
+    margin-left: 12%;
     width: calc(100% - 20px);
 }
 
@@ -153,9 +155,12 @@ a.btn {
     resize: none;
     border-radius: 5px;
     margin-bottom: 15px;
+    margin-left: 12%;
     width: calc(100% - 20px);
 }
 
 .full-width {
     width: 100%;
+    margin-left: 12%;
 }
+
