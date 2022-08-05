@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\mrgom\Portafolio Python\venv"
+VIRTUAL_ENV="D:\Desktop\MyPythonAppProject\Portafolio Python\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
